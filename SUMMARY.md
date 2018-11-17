@@ -17,7 +17,7 @@
 ## 聚宽
 
 * [如何使用JoinQuant编写策略](ju-kuan/joint.md)
-* [获取各种因子数据的研究](ju-kuan/huo-qu-ge-zhong-yin-zi-shu-ju-de-yan-jiu.md)
+* [聚宽API调用](ju-kuan/huo-qu-ge-zhong-yin-zi-shu-ju-de-yan-jiu.md)
 
 ## 波动率选股
 

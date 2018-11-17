@@ -1,4 +1,92 @@
-# 获取各种因子数据的研究
+# 聚宽API调用
+
+## 十大流通股东
+
+```python
+#十大流通股东
+from jqdata import finance
+
+df_top_float_10 = finance.run_query(query
+(finance.STK_SHAREHOLDER_FLOATING_TOP10)
+.filter(finance.STK_SHAREHOLDER_FLOATING_TOP10.code=='000001.XSHE'))
+
+ #十大股东
+code='000001.XSHE'
+df_top10 = finance.run_query(query(finance.STK_SHAREHOLDER_TOP10).
+filter(finance.STK_SHAREHOLDER_TOP10.code==code))
+.filter(finance.STK_SHAREHOLDER_FLOATING_TOP10.code=='000001.XSHE'))
+```
+
+## 获取基本财务数据get\_fundamentals
+
+```python
+stocks = get_index_stocks('000951.XSHG')
+
+df = get_fundamentals(
+    query(valuation.code,valuation.pb_ratio, valuation.pe_ratio,
+          valuation.capitalization, valuation.circulating_cap, 
+          valuation.market_cap,valuation.turnover_ratio,valuation.pe_ratio_lyr)
+    .filter(valuation.code.in_(stocks))).sort_index(1)
+
+#获取每个季度的收益
+def get_eps(code):
+    q = query(
+          income.statDate,
+          income.code,
+          income.basic_eps,
+          balance.cash_equivalents,
+          cash_flow.goods_sale_and_service_render_cash
+      ).filter(
+          income.code == code,
+      )
+
+    rets = [get_fundamentals(q, statDate='2018q'+str(i)) for i in range(1, 5)]
+
+    #print(rets[0]['basic_eps'][0])
+
+    # rets[0]['basic_eps'] is a Series object
+    d = {'2018q1': [rets[0].basic_eps[0]], '2018q2': [rets[1].basic_eps[0]],'2018q3': [rets[2].basic_eps[0]]}
+    #df_footer = pd.DataFrame.from_items(footer)
+
+    return pd.DataFrame(data=d)
+
+
+```
+
+## 获取名字，且apply到所有列
+
+```python
+#apply 用法
+def get_name(code):
+    return get_security_info(code).display_name
+
+df['display_name'] = df['code'].apply(get_name)
+```
+
+## 获取因子数据 get\_factor\_data
+
+```python
+from jqfactor import get_factor_values
+now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+stocks = get_index_stocks('000001.XSHG')
+start_date = (datetime.datetime.now() - datetime.timedelta(6)).strftime("%Y-%m-%d %H:%M:%S")
+factor_data = get_factor_values(securities=stocks,
+                                factors=['net_profit_to_total_operate_revenue_ttm','net_non_operating_income_to_total_profit','VOL5'],
+                                start_date=start_date, 
+                                end_date=now)
+```
+
+## 用history获取数据
+
+```text
+ # 获取沪深300指数的过去一天(不包含当天)的交易额
+h = history(5, '1d', 'volume', ['000300.XSHG'], df=True)
+
+# 获取股票列表的数据
+# 获取沪深300的过去5分钟(不包含当前分钟)的每分钟的最高价
+h_list = history(count = 500, unit = '5m', field='high', 
+                 security_list = get_index_stocks('399913.XSHE'), df=True)
+```
 
 ```python
 import pandas as pd
