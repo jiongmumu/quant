@@ -1,7 +1,5 @@
 # 量化研究
 
-
-
 投资阅读书籍   
 1 algorithmic trading winning strategies and their rationale   
 2 barra handbook US   

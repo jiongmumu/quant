@@ -1,7 +1,3 @@
----
-description: Trend strength indicator.
----
-
 # ADX indicator
 
 ADX is used to quantify trend strength. ADX calculations are based on a [moving average](https://www.investopedia.com/terms/m/movingaverage.asp) of price range expansion over a given period of time. The default setting is 14 bars, although other time periods can be used. ADX can be used on any trading vehicle such as stocks, mutual funds, [exchange-traded funds](https://www.investopedia.com/terms/e/etf.asp) and futures.
