@@ -1,8 +1,12 @@
+---
+description: 自学量化投资中。
+---
+
 # 量化研究
 
-先把 这里提到的那些策略都理解一遍。
 
-四、投资阅读书籍   
+
+投资阅读书籍   
 1 algorithmic trading winning strategies and their rationale   
 2 barra handbook US   
 3 Encyclopedia of Trading Strategies\(交易策略百科全书\)   
@@ -13,8 +17,6 @@
 8 Quantitative Equity Portfolio Management：Modern Techniques and Applications   
 9 Quantitative Trading How to Build Your Own Algorithmic Trading Business   
 10 Quantitative Trading How to Build Your Own Algorithmic Trading Business 
-
-这些书不错。
 
 
 

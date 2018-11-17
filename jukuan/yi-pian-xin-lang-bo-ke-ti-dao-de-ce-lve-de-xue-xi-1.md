@@ -1,7 +1,3 @@
----
-description: 'from https://www.joinquant.com/post/541'
----
-
 # 成长股内在价值投资
 
 由于我比较感兴趣的是短线，所以这个价值投资我如果每天运行，对我意义不大。
