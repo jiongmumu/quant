@@ -1,5 +1,12 @@
 # 如何使用JoinQuant编写策略
 
+## **如何使用JoinQuant取数据**
+
+\(1\)取行情数据  
+详见：[股票行情数据](https://www.joinquant.com/post/495)  
+\(2\)取财务数据  
+详见：[基本面数据](https://www.joinquant.com/post/509)
+
 ## 设置股票池
 
 ```python
