@@ -27,8 +27,7 @@ def calRSI(stocks):
         rsi += [talib.RSI(prices['close'].values, timeperiod=14)[-1]]
 
     return rsi
-
 ```
 
-{% embed url="https://www.joinquant.com/post/1023?f=2016newyearsum" %}
+{% embed url="https://www.joinquant.com/post/1023?f=2016newyearsum" caption="" %}
 
