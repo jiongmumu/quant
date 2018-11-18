@@ -15,6 +15,7 @@
 * [ADX indicator](tou-zi-ji-ben-gai-nian/adx-indicator.md)
 * [术语和指标](tou-zi-ji-ben-gai-nian/shu-yu-he-zhi-biao.md)
 * [指数基金](tou-zi-ji-ben-gai-nian/zhi-shu-ji-jin.md)
+* [EMV - Ease of Movement](tou-zi-ji-ben-gai-nian/emv-ease-of-movement.md)
 
 ## 聚宽
 
