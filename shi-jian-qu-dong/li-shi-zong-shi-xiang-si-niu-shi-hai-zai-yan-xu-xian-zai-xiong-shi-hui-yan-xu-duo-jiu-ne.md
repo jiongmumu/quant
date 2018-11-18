@@ -47,3 +47,5 @@ sns.despine()
 
 {% embed url="https://wizardforcel.gitbooks.io/python-quant-uqer/content/57.html" %}
 
+这个文章的事件驱动的其余部分都需要uqer的api，所以就不能实现了= =算了。
+
