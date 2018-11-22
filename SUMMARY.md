@@ -30,3 +30,7 @@
 
 * [历史总是相似 牛市还在延续- 现在熊市会延续多久呢](shi-jian-qu-dong/li-shi-zong-shi-xiang-si-niu-shi-hai-zai-yan-xu-xian-zai-xiong-shi-hui-yan-xu-duo-jiu-ne.md)
 
+## 机器学习
+
+* [机器学习多因子策略](ji-qi-xue-xi/ji-qi-xue-xi-duo-yin-zi-ce-lve.md)
+
