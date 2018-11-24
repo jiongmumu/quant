@@ -25,7 +25,6 @@
 ## 波动率选股
 
 * [波动率选股](bo-dong-lv-xuan-gu/bo-dong-lv-xuan-gu.md)
-* [随机森林](bo-dong-lv-xuan-gu/sui-ji-sen-lin.md)
 
 ## 事件驱动
 
@@ -34,4 +33,5 @@
 ## 机器学习
 
 * [机器学习多因子策略](ji-qi-xue-xi/ji-qi-xue-xi-duo-yin-zi-ce-lve.md)
+* [随机森林](bo-dong-lv-xuan-gu/sui-ji-sen-lin.md)
 
