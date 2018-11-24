@@ -1,6 +1,6 @@
 # 随机森林
 
-## 建立模型
+## 创建数据集合
 
 ```python
 import talib
