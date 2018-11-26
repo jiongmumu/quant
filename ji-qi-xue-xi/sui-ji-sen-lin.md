@@ -102,7 +102,7 @@ graph = pydotplus.graph_from_dot_data(f.getvalue())
 display(Image(graph.create_png()))
 ```
 
-![&#x968F;&#x673A;&#x68EE;&#x6797;&#x67D0;&#x4E2A;&#x6570;&#x7684;&#x5206;&#x7C7B;&#x56FE;](../.gitbook/assets/image.png)
+![&#x968F;&#x673A;&#x68EE;&#x6797;&#x67D0;&#x4E2A;&#x6570;&#x7684;&#x5206;&#x7C7B;&#x56FE;](../.gitbook/assets/image%20%281%29.png)
 
   
 

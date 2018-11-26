@@ -2,7 +2,7 @@
 
 不知道现在的熊市会延续多久，看这个股票涨成这样= =不知道现在市场到底算是什么状况。改一下原来的程序对比一下形状，但好像现在跌的还没有那么厉害？
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ```python
 import datetime as dt
@@ -41,7 +41,7 @@ sns.despine()
 
 ```
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 
 
