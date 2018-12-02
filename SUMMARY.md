@@ -17,6 +17,7 @@
 * [指数基金](tou-zi-ji-ben-gai-nian/zhi-shu-ji-jin.md)
 * [EMV - Ease of Movement](tou-zi-ji-ben-gai-nian/emv-ease-of-movement.md)
 * [TD sequential](tou-zi-ji-ben-gai-nian/td-sequential.md)
+* [talib](tou-zi-ji-ben-gai-nian/talib.md)
 
 ## 聚宽
 
