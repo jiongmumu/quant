@@ -44,4 +44,5 @@
 * [Pattern Recognition Functions](talib/pattern-recognition-functions.md)
 * [Volatility Indicator Functions](talib/volatility-indicator-functions.md)
 * [Volume Indicator Functions](talib/volume-indicator-functions.md)
+* [Statistic Functions](talib/statistic-functions.md)
 
