@@ -39,3 +39,8 @@
 * [随机森林](ji-qi-xue-xi/sui-ji-sen-lin.md)
 * [adaboost](ji-qi-xue-xi/adaboost.md)
 
+## talib
+
+* [Pattern Recognition Functions](talib/pattern-recognition-functions.md)
+* [Volatility Indicator Functions](talib/volatility-indicator-functions.md)
+
