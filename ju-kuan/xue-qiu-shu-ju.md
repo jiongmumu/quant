@@ -1,5 +1,7 @@
 # 雪球数据
 
+{% embed url="https://www.joinquant.com/help/api/help?name=Public" %}
+
 ```python
 from jqdata import finance
 
