@@ -24,6 +24,7 @@
 * [如何使用JoinQuant编写策略](ju-kuan/joint.md)
 * [聚宽API调用](ju-kuan/huo-qu-ge-zhong-yin-zi-shu-ju-de-yan-jiu.md)
 * [基本概念](ju-kuan/ji-ben-gai-nian.md)
+* [雪球数据](ju-kuan/xue-qiu-shu-ju.md)
 
 ## 波动率选股
 
