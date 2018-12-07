@@ -8,6 +8,7 @@
 * [pandas基本](python/pandas-ji-ben.md)
 * [numpy常用函数](python/numpy-chang-yong-han-shu.md)
 * [新浪热门股票](python/xin-lang-re-men-gu-piao.md)
+* [sklearn](python/sklearn.md)
 
 ## 投资基本概念
 
