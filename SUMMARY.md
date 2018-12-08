@@ -9,6 +9,7 @@
 * [numpy常用函数](python/numpy-chang-yong-han-shu.md)
 * [新浪热门股票](python/xin-lang-re-men-gu-piao.md)
 * [sklearn](python/sklearn.md)
+* [pycharm](python/pycharm.md)
 
 ## 投资基本概念
 
@@ -47,4 +48,8 @@
 * [Volatility Indicator Functions](talib/volatility-indicator-functions.md)
 * [Volume Indicator Functions](talib/volume-indicator-functions.md)
 * [Statistic Functions](talib/statistic-functions.md)
+
+## udacity
+
+* [pandas basic](udacity/pandas-basic.md)
 
