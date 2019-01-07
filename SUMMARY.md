@@ -53,3 +53,7 @@
 
 * [pandas basic](udacity/pandas-basic.md)
 
+## quantopian
+
+* [竞争优势](quantopian/jing-zheng-you-shi.md)
+
