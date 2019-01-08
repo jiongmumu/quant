@@ -56,5 +56,5 @@
 
 ## quantopian
 
-* [竞争优势](quantopian/jing-zheng-you-shi.md)
+* [四个指标分析竞争优势及行业](quantopian/si-ge-zhi-biao-fen-xi-jing-zheng-you-shi-ji-hang-ye.md)
 
