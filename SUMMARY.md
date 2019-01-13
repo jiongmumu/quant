@@ -20,6 +20,7 @@
 * [EMV - Ease of Movement](tou-zi-ji-ben-gai-nian/emv-ease-of-movement.md)
 * [TD sequential](tou-zi-ji-ben-gai-nian/td-sequential.md)
 * [聚宽中基于通达信、东方财富、同花顺等的因子](tou-zi-ji-ben-gai-nian/ju-kuan-zhong-ji-yu-tong-da-xin-dong-fang-cai-fu-tong-hua-shun-deng-de-yin-zi.md)
+* [彼得林奇的成功投资](tou-zi-ji-ben-gai-nian/bi-de-lin-qi-de-cheng-gong-tou-zi.md)
 
 ## 聚宽
 
